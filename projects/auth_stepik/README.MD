@@ -53,17 +53,36 @@
 ---
 
 ## **Структура репозитория**
-- **test_cases.xlsx:**
+- **manual_test_result.md:**
+ Итоги выполнения ручного тестирования, включая выводы.
+
+ - **test_cases.xlsx:**
  Тест-кейсы для смоук- и функционального тестирования.
  Также с файлом можно ознакомиться по [ссылке](https://docs.google.com/spreadsheets/d/1PBKNLGxWqFaNcUMvmFtz3p48Ix2NN6VE13QgKl65OPc/edit?usp=sharing)
-- **results:**
- Итоги выполнения тестов, включая выводы.
-- **/screenshots:**
+
+ - **/screenshots:**
  Скриншоты ожидаемых результатов из test_cases.xlsx
+
+ - **auto_tests/**
+report.html  - отчет о выполнении авто тестов
+
+- **auto_tests/**
+readme.md  - Руководство по автотестам
+
+- **auto_tests/** test_auto.py - сами тесты
+
+- **auto_tests/**
+readme.md  - как запускать автотесты
+
+- **auto_tests/**
+requirements.txt  - список зависимостей
+
+
+
 
 ---
 
-## **Как запустить проект**
+## **Как запустить проект(manual)**
 1. Перейдите на форму аутентификации по предоставленному [URL](https://stepik.org/catalog?auth=login)
 2. Выполните тесты в браузере или на эмулированной среде.
 
