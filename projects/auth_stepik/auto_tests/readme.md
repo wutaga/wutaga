@@ -24,3 +24,7 @@
 
 ### Headless-режим
 `pytest test_file.py --headless`
+
+### С формированием отчета report.html
+
+`pytest test_file.py --html=report.html`
